@@ -34,6 +34,7 @@ const module_definations = {
     },
 };
 
+// 需要前面加! + - 来让js引擎识别为函数表达式而不是函数声明
 !(function main(_module, _exports, _require, _modules) {
     _modules['main.js'](_module, _exports, _require);
 })(__mt_module, __mt_module.exports, __mt_require, module_definations);
